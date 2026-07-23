@@ -90,8 +90,5 @@ param hubNetworks = [
       privateDnsResolverName: 'dnspr-alz-${parLocations[0]}'
       privateDnsZones: []
     }
-    ddosProtectionPlanSettings: {
-      deployDdosProtectionPlan: false
-    }
   }
 ]
