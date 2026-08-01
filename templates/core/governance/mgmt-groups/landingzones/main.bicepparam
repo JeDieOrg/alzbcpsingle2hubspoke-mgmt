@@ -14,7 +14,9 @@ param landingZonesConfig = {
   managementGroupIntermediateRootName: 'alz-bcp-hubspoke-single2'
   managementGroupDisplayName: 'Landing Zones'
   managementGroupDoNotEnforcePolicyAssignments: []
-  managementGroupExcludedPolicyAssignments: []
+  managementGroupExcludedPolicyAssignments: [
+    'Enable-DDos-VNET'
+  ]
   customerRbacRoleDefs: []
   customerRbacRoleAssignments: []
   customerPolicyDefs: []

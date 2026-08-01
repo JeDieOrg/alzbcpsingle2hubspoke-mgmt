@@ -14,7 +14,9 @@ param platformConnectivityConfig = {
   managementGroupIntermediateRootName: 'alz-bcp-hubspoke-single2'
   managementGroupDisplayName: 'Connectivity'
   managementGroupDoNotEnforcePolicyAssignments: []
-  managementGroupExcludedPolicyAssignments: []
+  managementGroupExcludedPolicyAssignments: [
+  'Enable-DDos-VNET'
+  ]
   customerRbacRoleDefs: []
   customerRbacRoleAssignments: []
   customerPolicyDefs: []
