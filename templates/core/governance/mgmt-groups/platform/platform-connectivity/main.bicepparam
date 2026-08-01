@@ -15,7 +15,7 @@ param platformConnectivityConfig = {
   managementGroupDisplayName: 'Connectivity'
   managementGroupDoNotEnforcePolicyAssignments: []
   managementGroupExcludedPolicyAssignments: [
-  'Enable-DDos-VNET'
+  'Enable-DDoS-VNET'
   ]
   customerRbacRoleDefs: []
   customerRbacRoleAssignments: []
