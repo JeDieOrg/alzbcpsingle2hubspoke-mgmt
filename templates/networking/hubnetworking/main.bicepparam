@@ -74,7 +74,7 @@ param hubNetworks = [
       skuName: 'Standard'
     }
     vpnGatewaySettings: {
-      deployVpnGateway: true
+      deployVpnGateway: false
       name: 'vgw-alz-${parLocations[0]}'
       skuName: 'VpnGw1AZ'
       vpnMode: 'activePassiveBgp'
