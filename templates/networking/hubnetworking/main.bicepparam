@@ -81,8 +81,8 @@ param hubNetworks = [
       vpnType: 'RouteBased'
       asn: 65515
       domainNameLabel: [
-          'vgw-alz-${parLocations[0]-bcpsingle2-pip1'
-          'vgw-alz-${parLocations[0]-bcpsingle2-pip2'
+          'vgw-alz-${parLocations[0]}-bcpsingle2-pip1'
+          'vgw-alz-${parLocations[0]}-bcpsingle2-pip2'
       ]
     }
     expressRouteGatewaySettings: {
