@@ -74,12 +74,16 @@ param hubNetworks = [
       skuName: 'Standard'
     }
     vpnGatewaySettings: {
-      deployVpnGateway: false
+      deployVpnGateway: true
       name: 'vgw-alz-${parLocations[0]}'
       skuName: 'VpnGw1AZ'
-      vpnMode: 'activePassiveBgp'
+      vpnMode: 'activeActiveBgp'
       vpnType: 'RouteBased'
       asn: 65515
+      domainNameLabel: [
+          'vgw-alz-${parLocations[0]}-bcpsingle2-pip1'
+          'vgw-alz-${parLocations[0]}-bcpsingle2-pip2'
+      ]
     }
     expressRouteGatewaySettings: {
       deployExpressRouteGateway: false
